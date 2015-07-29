@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A4B09991B687994009B7535 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4B09981B687994009B7535 /* AppDelegate.swift */; };
+		5A4B099B1B687994009B7535 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4B099A1B687994009B7535 /* ViewController.swift */; };
+		5A4B099D1B687994009B7535 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A4B099C1B687994009B7535 /* Assets.xcassets */; };
+		5A4B09A01B687994009B7535 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A4B099E1B687994009B7535 /* Main.storyboard */; };
+		5A4B09B51B687A68009B7535 /* SocketAckManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4B09A81B687A68009B7535 /* SocketAckManager.swift */; };
+		5A4B09B61B687A68009B7535 /* SocketAnyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4B09A91B687A68009B7535 /* SocketAnyEvent.swift */; };
+		5A4B09B71B687A68009B7535 /* SocketEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4B09AA1B687A68009B7535 /* SocketEngine.swift */; };
+		5A4B09B81B687A68009B7535 /* SocketEngineClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4B09AB1B687A68009B7535 /* SocketEngineClient.swift */; };
+		5A4B09B91B687A68009B7535 /* SocketEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4B09AC1B687A68009B7535 /* SocketEventHandler.swift */; };
+		5A4B09BA1B687A68009B7535 /* SocketFixUTF8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4B09AD1B687A68009B7535 /* SocketFixUTF8.swift */; };
+		5A4B09BB1B687A68009B7535 /* SocketIOClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4B09AE1B687A68009B7535 /* SocketIOClient.swift */; };
+		5A4B09BC1B687A68009B7535 /* SocketLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4B09AF1B687A68009B7535 /* SocketLogger.swift */; };
+		5A4B09BD1B687A68009B7535 /* SocketPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4B09B01B687A68009B7535 /* SocketPacket.swift */; };
+		5A4B09BE1B687A68009B7535 /* SocketParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4B09B11B687A68009B7535 /* SocketParser.swift */; };
+		5A4B09BF1B687A68009B7535 /* SocketTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4B09B21B687A68009B7535 /* SocketTypes.swift */; };
+		5A4B09C01B687A68009B7535 /* SwiftRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4B09B31B687A68009B7535 /* SwiftRegex.swift */; };
+		5A4B09C11B687A68009B7535 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4B09B41B687A68009B7535 /* WebSocket.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A4B09951B687994009B7535 /* pulseInstructor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pulseInstructor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A4B09981B687994009B7535 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A4B099A1B687994009B7535 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5A4B099C1B687994009B7535 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A4B099F1B687994009B7535 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A4B09A11B687994009B7535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A4B09A81B687A68009B7535 /* SocketAckManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketAckManager.swift; sourceTree = "<group>"; };
+		5A4B09A91B687A68009B7535 /* SocketAnyEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketAnyEvent.swift; sourceTree = "<group>"; };
+		5A4B09AA1B687A68009B7535 /* SocketEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEngine.swift; sourceTree = "<group>"; };
+		5A4B09AB1B687A68009B7535 /* SocketEngineClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEngineClient.swift; sourceTree = "<group>"; };
+		5A4B09AC1B687A68009B7535 /* SocketEventHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEventHandler.swift; sourceTree = "<group>"; };
+		5A4B09AD1B687A68009B7535 /* SocketFixUTF8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketFixUTF8.swift; sourceTree = "<group>"; };
+		5A4B09AE1B687A68009B7535 /* SocketIOClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOClient.swift; sourceTree = "<group>"; };
+		5A4B09AF1B687A68009B7535 /* SocketLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketLogger.swift; sourceTree = "<group>"; };
+		5A4B09B01B687A68009B7535 /* SocketPacket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketPacket.swift; sourceTree = "<group>"; };
+		5A4B09B11B687A68009B7535 /* SocketParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketParser.swift; sourceTree = "<group>"; };
+		5A4B09B21B687A68009B7535 /* SocketTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketTypes.swift; sourceTree = "<group>"; };
+		5A4B09B31B687A68009B7535 /* SwiftRegex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftRegex.swift; sourceTree = "<group>"; };
+		5A4B09B41B687A68009B7535 /* WebSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSocket.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A4B09921B687994009B7535 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A4B098C1B687994009B7535 = {
+			isa = PBXGroup;
+			children = (
+				5A4B09971B687994009B7535 /* pulseInstructor */,
+				5A4B09961B687994009B7535 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A4B09961B687994009B7535 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A4B09951B687994009B7535 /* pulseInstructor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A4B09971B687994009B7535 /* pulseInstructor */ = {
+			isa = PBXGroup;
+			children = (
+				5A4B09A71B687A68009B7535 /* SocketIOClientSwift */,
+				5A4B09981B687994009B7535 /* AppDelegate.swift */,
+				5A4B099A1B687994009B7535 /* ViewController.swift */,
+				5A4B099C1B687994009B7535 /* Assets.xcassets */,
+				5A4B099E1B687994009B7535 /* Main.storyboard */,
+				5A4B09A11B687994009B7535 /* Info.plist */,
+			);
+			path = pulseInstructor;
+			sourceTree = "<group>";
+		};
+		5A4B09A71B687A68009B7535 /* SocketIOClientSwift */ = {
+			isa = PBXGroup;
+			children = (
+				5A4B09A81B687A68009B7535 /* SocketAckManager.swift */,
+				5A4B09A91B687A68009B7535 /* SocketAnyEvent.swift */,
+				5A4B09AA1B687A68009B7535 /* SocketEngine.swift */,
+				5A4B09AB1B687A68009B7535 /* SocketEngineClient.swift */,
+				5A4B09AC1B687A68009B7535 /* SocketEventHandler.swift */,
+				5A4B09AD1B687A68009B7535 /* SocketFixUTF8.swift */,
+				5A4B09AE1B687A68009B7535 /* SocketIOClient.swift */,
+				5A4B09AF1B687A68009B7535 /* SocketLogger.swift */,
+				5A4B09B01B687A68009B7535 /* SocketPacket.swift */,
+				5A4B09B11B687A68009B7535 /* SocketParser.swift */,
+				5A4B09B21B687A68009B7535 /* SocketTypes.swift */,
+				5A4B09B31B687A68009B7535 /* SwiftRegex.swift */,
+				5A4B09B41B687A68009B7535 /* WebSocket.swift */,
+			);
+			name = SocketIOClientSwift;
+			path = ../../../../../Downloads/SocketIOClientSwift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A4B09941B687994009B7535 /* pulseInstructor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A4B09A41B687994009B7535 /* Build configuration list for PBXNativeTarget "pulseInstructor" */;
+			buildPhases = (
+				5A4B09911B687994009B7535 /* Sources */,
+				5A4B09921B687994009B7535 /* Frameworks */,
+				5A4B09931B687994009B7535 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pulseInstructor;
+			productName = pulseInstructor;
+			productReference = 5A4B09951B687994009B7535 /* pulseInstructor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A4B098D1B687994009B7535 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Jae Hoon Lee";
+				TargetAttributes = {
+					5A4B09941B687994009B7535 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 5A4B09901B687994009B7535 /* Build configuration list for PBXProject "pulseInstructor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A4B098C1B687994009B7535;
+			productRefGroup = 5A4B09961B687994009B7535 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A4B09941B687994009B7535 /* pulseInstructor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A4B09931B687994009B7535 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A4B099D1B687994009B7535 /* Assets.xcassets in Resources */,
+				5A4B09A01B687994009B7535 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A4B09911B687994009B7535 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A4B09BB1B687A68009B7535 /* SocketIOClient.swift in Sources */,
+				5A4B09B51B687A68009B7535 /* SocketAckManager.swift in Sources */,
+				5A4B09B81B687A68009B7535 /* SocketEngineClient.swift in Sources */,
+				5A4B09C01B687A68009B7535 /* SwiftRegex.swift in Sources */,
+				5A4B09C11B687A68009B7535 /* WebSocket.swift in Sources */,
+				5A4B09B71B687A68009B7535 /* SocketEngine.swift in Sources */,
+				5A4B099B1B687994009B7535 /* ViewController.swift in Sources */,
+				5A4B09BD1B687A68009B7535 /* SocketPacket.swift in Sources */,
+				5A4B09B91B687A68009B7535 /* SocketEventHandler.swift in Sources */,
+				5A4B09BC1B687A68009B7535 /* SocketLogger.swift in Sources */,
+				5A4B09BA1B687A68009B7535 /* SocketFixUTF8.swift in Sources */,
+				5A4B09BF1B687A68009B7535 /* SocketTypes.swift in Sources */,
+				5A4B09B61B687A68009B7535 /* SocketAnyEvent.swift in Sources */,
+				5A4B09991B687994009B7535 /* AppDelegate.swift in Sources */,
+				5A4B09BE1B687A68009B7535 /* SocketParser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5A4B099E1B687994009B7535 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A4B099F1B687994009B7535 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A4B09A21B687994009B7535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A4B09A31B687994009B7535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5A4B09A51B687994009B7535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = pulseInstructor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andyrewlee.pulseInstructor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5A4B09A61B687994009B7535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = pulseInstructor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andyrewlee.pulseInstructor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A4B09901B687994009B7535 /* Build configuration list for PBXProject "pulseInstructor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4B09A21B687994009B7535 /* Debug */,
+				5A4B09A31B687994009B7535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A4B09A41B687994009B7535 /* Build configuration list for PBXNativeTarget "pulseInstructor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4B09A51B687994009B7535 /* Debug */,
+				5A4B09A61B687994009B7535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A4B098D1B687994009B7535 /* Project object */;
+}
